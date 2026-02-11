@@ -4,6 +4,14 @@
 
 ---
 
+### 🧹 Data Preparation & Cleaning
+To ensure the integrity of the analysis, the raw dataset underwent a rigorous transformation process:
+* **Format Standardization:** Converted varied date formats into a unified YYYY-MM-DD structure for time-series analysis.
+* **Integrity Checks:** Cleaned null values and handled outliers in transaction amounts to prevent skewed ROI calculations.
+* **Feature Engineering:** Used **SQL Window Functions** to calculate rolling MRR and cohort-based retention metrics from raw log data.
+
+---
+
 ### 🚀 Business Impact & Key Metrics
 | Metric | Achievement / Value |
 | :--- | :--- |
